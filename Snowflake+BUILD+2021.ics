@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:-//Microsoft Corporation//Outlook 11.0 MIMEDIR//EN
+BEGIN:VEVENT
+UID:18188614888cd44067
+DTSTAMP:20210920T131245Z
+DTSTART:20211004T170000Z
+DTEND:20211005T220000Z
+SUMMARY:Snowflake BUILD 2021
+LOCATION:Virtual Event
+DESCRIPTION:Join thousands of developers and startup founders at Build Summit\, where developers and data intersect. Stay tuned for updates in the upcoming months for the agenda\, dev talks\, technical hands-on labs\, and product announcements.\n\nClick the link below to access the event on October 4 - 5:\n\nhttps://www.snowflakebuild.com
+END:VEVENT
+END:VCALENDAR
