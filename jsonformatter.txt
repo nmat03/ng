@@ -1,0 +1,3390 @@
+[
+  {
+    "uri": "configuration/relationTypes",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/relationTypes/AccountToIndividual",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/relationTypes/AccountToOrganization",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/MDMID",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/Prefix",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/Email",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/Phone",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/Addresses",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/customerType",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/customerStatus",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/sinceDate",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/Name",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/FirstName",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/MiddleName",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/LastName",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/SuffixName",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/sourceSystemIdentifier",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/MDMID",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/Phone",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/Email",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/Addresses",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/customerType",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/customerStatus",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/sinceDate",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/companyLegalName",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/DBA",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/careOf",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/sourceSystemIdentifier",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/Phone",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/Email",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/BillingAccountNumber",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/SourceSystemIdentifier",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/BillingAccountStatus",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/BillingAccountStartDate",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/BillingAccountEndDate",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/Addresses",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII"
+      },
+      {
+        "role": "USCUST_PII_READ"
+      },
+      {
+        "role": "USCUST_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/SSN",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER"
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ"
+      },
+      {
+        "role": "USCUST_STEWARD"
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual/attributes/DoB",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER"
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ"
+      },
+      {
+        "role": "USCUST_STEWARD"
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/EIN",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER"
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ"
+      },
+      {
+        "role": "USCUST_STEWARD"
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Organization/attributes/SSN",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER"
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ"
+      },
+      {
+        "role": "USCUST_STEWARD"
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/SSN",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER"
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ"
+      },
+      {
+        "role": "USCUST_STEWARD"
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Account/attributes/EIN",
+    "permissions": [
+      {
+        "role": "USCUST_MANAGER"
+      },
+      {
+        "role": "USCUST_PII",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "USCUST_PII_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "USCUST_READ"
+      },
+      {
+        "role": "USCUST_STEWARD"
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker",
+    "permissions": [
+      {
+        "role": "USWORKER_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "INITIATE_CHANGE_REQUEST",
+          "ACCEPT_CHANGE_REQUEST",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/MDMID",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/employeeId",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/NetworkId",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/recordStatus",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/firstName",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/middleName",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/lastName",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/preferredFirstName",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/preferredLastName",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/workerFullName",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/workerType",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/learning",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Addresses",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Phone",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Email",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/sourceSystemIdentifier",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Employment",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/Event",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER"
+      },
+      {
+        "role": "WORKFORCE_READ"
+      },
+      {
+        "role": "WORKFORCE_SPI",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_STEWARD"
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/eventReasonCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER"
+      },
+      {
+        "role": "WORKFORCE_READ"
+      },
+      {
+        "role": "WORKFORCE_SPI",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_STEWARD"
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/eventEffectiveStartDate",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/eventEffectiveEnddate",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/positionCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/companyCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/positionTitle",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/locationCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/employeeType",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/employeeClassCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/addressLine1",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/addressLine2",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/City",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/State",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/postalCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/Country",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/employeeStatus",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/employeeSubgroupCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/globalBandCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/managerId",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/FullTimePartTime",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/jobCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/vendorCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/vendorName",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/businessUnitCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/departmentCode",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/Division",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Events/attributes/costCenterID",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/Myhub_EmployeeId",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/PermanentEmployeeID",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/CompletenessCheck",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/CompletenessCheck1",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Worker/attributes/matchGroup",
+    "permissions": [
+      {
+        "role": "WORKFORCE_MANAGER",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "role": "WORKFORCE_READ",
+        "access": [
+          "READ"
+        ]
+      },
+      {
+        "role": "WORKFORCE_SPI"
+      },
+      {
+        "role": "WORKFORCE_SPI_READ_ONLY"
+      },
+      {
+        "role": "WORKFORCE_STEWARD",
+        "access": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  }
+]
